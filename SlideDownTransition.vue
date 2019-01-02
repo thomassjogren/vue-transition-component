@@ -1,7 +1,7 @@
 <template>
   <transition
     name="slide-down"
-    @beforeEnter="beforeEnter"
+    @before-enter="beforeEnter"
     @enter="enter"
     @leave="leave"
   >
@@ -15,9 +15,11 @@ export default {
     beforeEnter(el) {
       el.style.height = '0';
     },
+
     enter(el) {
       el.style.height = `${el.scrollHeight}px`;
     },
+
     leave(el) {
       el.style.height = '0';
     },
