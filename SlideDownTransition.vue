@@ -24,3 +24,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.slide-down-enter-active, .slide-down-leave-active {
+  transition: all .2s;
+}
+</style>

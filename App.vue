@@ -44,8 +44,4 @@ export default {
   backface-visibility: hidden;
   perspective: 1000px;
 }
-
-.slide-down-enter-active, .slide-down-leave-active {
-  transition: all .2s;
-}
 </style>
