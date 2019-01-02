@@ -12,5 +12,13 @@
     "components"
   ],
   "author": "Thomas Sjøgren",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomassjogren/vue-transition-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thomassjogren/vue-transition-component/issues"
+  },
+  "homepage": "https://github.com/thomassjogren/vue-transition-component#readme"
 }
