@@ -1,12 +1,12 @@
 <template>
-  <transition
+  <Transition
     name="slide-down"
     @before-enter="beforeEnter"
     @enter="enter"
     @leave="leave"
   >
     <slot/>
-  </transition>
+  </Transition>
 </template>
 
 <script>
