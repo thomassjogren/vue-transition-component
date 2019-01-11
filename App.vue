@@ -1,9 +1,19 @@
 <template>
   <div>
-    <button @click="toggle">Toggle</button>
+    <button @click="toggle">
+      Toggle
+    </button>
     <SlideDownTransition>
-      <div v-if="show" class="box">
-        <p v-for="c in count" :key="c">{{ text }}</p>
+      <div
+        v-if="show"
+        class="box"
+      >
+        <p
+          v-for="c in count"
+          :key="c"
+        >
+          {{ text }}
+        </p>
       </div>
     </SlideDownTransition>
   </div>
