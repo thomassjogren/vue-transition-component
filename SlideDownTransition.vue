@@ -5,7 +5,7 @@
     @enter="enter"
     @leave="leave"
   >
-    <slot/>
+    <slot />
   </Transition>
 </template>
 
